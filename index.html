@@ -1,14 +1,23 @@
-<!DOCTYPE html>
 <html>
-	<head>
-		<title>Samantha</title>
-		<meta content="TechChangers" property="og:site_name">
-		<meta content="https://sjmkitty.github.io/gwcLogo.png"
-     property="snapchat:sticker" />
-		<meta content="GWC Makerspace 2020!" property="og:title">
-		
-	</head>
-	<body>
-		<p> hello! </p>
-	</body>
+<head>
+    <meta content="Snapchat" property="og:site_name">
+    <meta content="The Fastest Way to Share a Moment!" property="og:title">
+</head>
+<body>
+    <!–– Other Page HTML -->
+
+    <div class="snapchat-creative-kit-share"></div>
+
+    <!-- Other Page HTML -->
+  <script>
+    // Load the SDK asynchronously
+    (function (d, s, id) {
+      var js, sjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://sdk.snapkit.com/js/v1/create.js";
+      sjs.parentNode.insertBefore(js, sjs);
+    }(document, 'script', 'snapkit-creative-kit-sdk'));
+  </script>
+</body>
 </html>
